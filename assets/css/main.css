@@ -1452,7 +1452,7 @@ input, select, textarea {
 			}
 
 			.gallery iframe{
-				padding: 2px;
+				padding: 1px;
 			}
 			
 			.gallery article:nth-last-child(1n) {
