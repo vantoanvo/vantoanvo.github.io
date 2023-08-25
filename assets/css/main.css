@@ -1853,6 +1853,14 @@ input, select, textarea {
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
+			
+			/* text-align: center;
+			position: relative;
+			left: 0;
+			top: 0;
+			height: 1.5em;
+			line-height: 2.5em;
+			font-size: 1.2em; */
 		}
 
 			#header h1 a {
@@ -1861,11 +1869,18 @@ input, select, textarea {
 
 		#header nav {
 			position: absolute;
-			left: 30%;
+			/* left: 30%; */
 			right: 0;
 			top: 0;
 			height: 3em;
-			line-height: 4em;
+			line-height: 1.5em;
+			/* text-align: center;
+			position: relative;
+			left: 0;
+			top: 0;
+			height: 2.5em;
+			line-height: 2em;
+			font-size: 0.8em; */
 		}
 
 			#header nav ul {
@@ -1874,8 +1889,8 @@ input, select, textarea {
 
 				#header nav ul li {
 					display: inline-block;
-					margin-left: 0.5em;
-					font-size: 0.9em;
+					margin-left: 0;
+					font-size: 1.5em;
 				}
 
 					#header nav ul li a {
@@ -1883,16 +1898,42 @@ input, select, textarea {
 						color: inherit;
 						text-decoration: none;
 						height: 3em;
-						line-height: 3em;
-						padding: 0 0.5em 0 0.5em;
+						line-height: 3.5em;
+						padding: 0 0.7em 0 0.7em;
 						outline: 0;
 					}
 
 		@media screen and (max-width: 736px) {
+			#header nav {
+				position: relative;
+				display: flex;
+				justify-content: center;
+				line-height: 3em;
+			}
+			#header nav ul {
+				margin: 0;
+			}
+
+				#header nav ul li {
+					display: inline-block;
+					margin-left: 0;
+					font-size: 1em;
+				}
+
+					#header nav ul li a {
+						display: block;
+						color: inherit;
+						text-decoration: none;
+						height: 3em;
+						line-height: 3.5em;
+						padding: 0 0.7em 0 0.7em;
+						outline: 0;
+					}
 
 			#header {
-				height: 3em;
+				/* height: 2.5em; */
 				line-height: 2.5em;
+				font-size: 1em;
 			}
 
 				#header h1 {
@@ -1900,10 +1941,9 @@ input, select, textarea {
 					position: relative;
 					left: 0;
 					top: 0;
-					height: 2.5em;
-					line-height: 2em;
-					font-size: 0.8em;
-					
+					height: 0.8em;
+					line-height: 2.5em;
+					font-size: 0.7em;		
 				}
 
 					#header h1 a {
