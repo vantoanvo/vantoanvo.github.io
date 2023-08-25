@@ -617,10 +617,10 @@ input, select, textarea {
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
 	}
-	
+	/*
 	.content > header + p + p{
 		margin-bottom: 14em;
-	}
+	} */
 /* Box */
 
 	.box {
@@ -2139,7 +2139,7 @@ input, select, textarea {
 				}
 
 				.main.style2 .button.anchored {
-					display: block;
+					display: none;
 				}
 
 				.main.style2 .content {
