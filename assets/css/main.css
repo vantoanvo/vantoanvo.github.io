@@ -615,9 +615,12 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 1em;
+		margin-bottom: 2em;
 	}
-
+	
+	.content > header + p + p{
+		margin-bottom: 14em;
+	}
 /* Box */
 
 	.box {
@@ -1845,6 +1848,7 @@ input, select, textarea {
 		#header h1 {
 			position: absolute;
 			left: 1em;
+			text-align: center;
 			top: 0;
 			height: 3em;
 			line-height: 3em;
@@ -1852,15 +1856,16 @@ input, select, textarea {
 		}
 
 			#header h1 a {
-				font-size: 1.25em;
+				font-size: 0.5em;
 			}
 
 		#header nav {
 			position: absolute;
-			right: 0.5em;
+			left: 30%;
+			right: 0;
 			top: 0;
 			height: 3em;
-			line-height: 3em;
+			line-height: 4em;
 		}
 
 			#header nav ul {
@@ -1886,7 +1891,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.5em;
+				height: 3em;
 				line-height: 2.5em;
 			}
 
@@ -1896,17 +1901,14 @@ input, select, textarea {
 					left: 0;
 					top: 0;
 					height: 2.5em;
-					line-height: 2.5em;
+					line-height: 2em;
+					font-size: 0.8em;
+					
 				}
 
 					#header h1 a {
 						font-size: 1em;
 					}
-
-				#header nav {
-					display: none;
-				}
-
 		}
 
 	body {
@@ -2076,7 +2078,11 @@ input, select, textarea {
 
 				.main.dark .button.style2.down {
 					background-image: url("images/dark-arrow.svg");
+					position: relative;
+					bottom: -2em;
 				}
+
+				.contain.box.style2 
 
 		body.is-touch .main {
 			background-attachment: scroll !important;
@@ -2133,7 +2139,7 @@ input, select, textarea {
 				}
 
 				.main.style2 .button.anchored {
-					display: none;
+					display: block;
 				}
 
 				.main.style2 .content {
