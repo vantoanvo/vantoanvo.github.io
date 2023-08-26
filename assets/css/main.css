@@ -1853,7 +1853,7 @@ input, select, textarea {
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
-			
+			font-size: 1.1em;
 			/* text-align: center;
 			position: relative;
 			left: 0;
@@ -1869,7 +1869,6 @@ input, select, textarea {
 
 		#header nav {
 			position: absolute;
-			/* left: 30%; */
 			right: 0;
 			top: 0;
 			height: 3em;
@@ -1890,7 +1889,7 @@ input, select, textarea {
 				#header nav ul li {
 					display: inline-block;
 					margin-left: 0;
-					font-size: 1.5em;
+					font-size: 2em;
 				}
 
 					#header nav ul li a {
@@ -1899,7 +1898,7 @@ input, select, textarea {
 						text-decoration: none;
 						height: 3em;
 						line-height: 3.5em;
-						padding: 0 0.7em 0 0.7em;
+						padding: 0 0.9em 0 0.9em;
 						outline: 0;
 					}
 
