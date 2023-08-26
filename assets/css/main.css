@@ -615,7 +615,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 0.5em;
 	}
 	/*
 	.content > header + p + p{
@@ -1854,13 +1854,6 @@ input, select, textarea {
 			line-height: 2.5em;
 			cursor: default;
 			font-size: 1.1em;
-			/* text-align: center;
-			position: relative;
-			left: 0;
-			top: 0;
-			height: 1.5em;
-			line-height: 2.5em;
-			font-size: 1.2em; */
 		}
 
 			#header h1 a {
@@ -1873,13 +1866,6 @@ input, select, textarea {
 			top: 0;
 			height: 3em;
 			line-height: 1.5em;
-			/* text-align: center;
-			position: relative;
-			left: 0;
-			top: 0;
-			height: 2.5em;
-			line-height: 2em;
-			font-size: 0.8em; */
 		}
 
 			#header nav ul {
@@ -2086,7 +2072,7 @@ input, select, textarea {
 		}
 
 			.main.style3 .content > header {
-				margin-bottom: 2em;
+				margin-bottom: 0.2em;
 			}
 
 			.main.style3.primary {
