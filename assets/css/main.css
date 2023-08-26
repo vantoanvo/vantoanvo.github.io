@@ -2017,6 +2017,8 @@ input, select, textarea {
 				transform: translateZ(0);
 				opacity: 1.0;
 				margin: 0;
+				position:absolute;
+				top: 4em;
 			}
 
 			.main.style1.inactive > .content {
@@ -2229,7 +2231,10 @@ input, select, textarea {
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
-
+		#intro footer{
+			position:absolute;
+			bottom: 2em;
+		}
 		#footer > * {
 			margin-bottom: 0;
 		}
