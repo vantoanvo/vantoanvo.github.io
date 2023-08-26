@@ -2183,7 +2183,7 @@ input, select, textarea {
 
 				.main.style2 .content {
 					width: 100%;
-					max-width: 100%;
+					max-width: 92%;
 					text-align: center;
 					-moz-transform: none;
 					-webkit-transform: none;
@@ -2294,13 +2294,13 @@ input, select, textarea {
 
 	#intro {
 		background: url("images/overlay.png"), url("IMG_1187.jpg");
-		background-size: cover;
+		/* background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat; 
-		/* background-position: center;
+		background-repeat: repeat, no-repeat; */
+		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover; */
+		background-size: cover;
 	}
 
 	
@@ -2310,26 +2310,26 @@ input, select, textarea {
 	#one {
 		background: url("images/overlay.png"), url("IMG_2936.jpg");
 		
-		background-size: 256px 256px, cover;
+		/* background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center; 
+		background-position: top left, center center; */
 		
-		/* background-position: top left, center center;
-		
-		background-size: cover; */
+		background-position: top left, center center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 /* Two */
 
 	#two {
 		background: url("images/overlay.png"), url("IMG_1342.JPG");
-		background-size: 256px 256px, cover;
+		/* background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center; 
+		background-position: top left, center center; */
 
-		/* background-position: center;
+		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover; */
+		background-size: cover;
 	}
 
 /* Contact */
