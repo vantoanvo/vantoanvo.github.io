@@ -615,12 +615,9 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 0.5em;
+		margin-bottom: 1em;
 	}
-	/*
-	.content > header + p + p{
-		margin-bottom: 14em;
-	} */
+	
 /* Box */
 
 	.box {
@@ -1889,8 +1886,7 @@ input, select, textarea {
 					}
 
 		@media screen and (max-width: 736px) {
-			
-			/* #header nav {
+			#header nav {
 				position: relative;
 				display: flex;
 				justify-content: center;
@@ -1914,52 +1910,27 @@ input, select, textarea {
 						line-height: 3.5em;
 						padding: 0 0.7em 0 0.7em;
 						outline: 0;
-					} */
-					#header {
-						/* height: 2.5em; */
-						line-height: 2.5em;
-						font-size: 1.1em;
-						z-index: 0;
 					}
-		
-						#header h1 {
-							text-align: left;
-							position: relative;
-							left: 0;
-							top: 0;
-							height: 0.8em;
-							line-height: 2.5em;
-							font-size: 0.8em;
-							margin-left: 0.5em;		
-						}	
-					
-					#header nav {
-						position: absolute;
-						right: 0;
-						top: 0;
-						height: 1em;
-						line-height: 1.5em;
+
+			#header {
+				/* height: 2.5em; */
+				line-height: 2.5em;
+				font-size: 1em;
+			}
+
+				#header h1 {
+					text-align: center;
+					position: relative;
+					left: 0;
+					top: 0;
+					height: 0.8em;
+					line-height: 2.5em;
+					font-size: 0.7em;		
+				}
+
+					#header h1 a {
+						font-size: 1em;
 					}
-			
-						#header nav ul {
-							margin: 0;
-						}
-			
-							#header nav ul li {
-								display: inline-block;
-								margin-left: 0;
-								font-size: 1.1em;
-							}
-			
-								#header nav ul li a {
-									display: block;
-									color: inherit;
-									text-decoration: none;
-									height: 2.5em;
-									line-height: 2.5em;
-									padding: 0 0.6em 0 0.6em;
-									outline: 0;
-								}
 		}
 
 	body {
@@ -2098,7 +2069,7 @@ input, select, textarea {
 		}
 
 			.main.style3 .content > header {
-				margin-bottom: 0.8em;
+				margin-bottom: 2em;
 			}
 
 			.main.style3.primary {
